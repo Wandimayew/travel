@@ -1,9 +1,9 @@
 import React,{useState} from "react";
 import { TbWorld } from "react-icons/tb";
 import { BiPlayCircle } from "react-icons/bi";
-import one from "../assets/images/one.jpg";
-import one1 from "../assets/images/one3.jpg";
-import one2 from "../assets/images/one5.jpg";
+import one from "../assets/images/1.jpg";
+import one1 from "../assets/images/3.jpg";
+import one2 from "../assets/images/2.jpg";
 import { BsPersonAdd } from "react-icons/bs";
 import { LuPlane } from "react-icons/lu";
 import { CiLocationOn } from "react-icons/ci";
@@ -52,7 +52,7 @@ const Home = () => {
               className="h-full lg:h-full lg:w-full rounded-3xl"
             />
             <div className="flex z-30 items-center justify-center absolute bottom-0 w-12 h-12 left-0 sm:-left-8 rounded-full bg-[#00487b]">
-              <LuPlane size={22} className="text-white cursor-pointer" />
+              <LuPlane size={20} className="text-white cursor-pointer" />
             </div>
           </div>
           <div>
@@ -65,10 +65,10 @@ const Home = () => {
         </div>
         <div className="flex items-center relative w-1/2">
           <img src={one2} alt="images" className="rounded-3xl h-3/5" />
-          <div className="z-20 absolute lg:right-16  sm:right-64 right-20 w-10 h-10 bottom-10 rounded-full items-center flex justify-center text-[#e76a43] bg-[#f3ded8]">
+          <div className="z-20 absolute lg:right-16  sm:right-64 right-20 w-10 h-10 bottom-0 rounded-full items-center flex justify-center text-[#e76a43] bg-[#f3ded8]">
             <BsPersonAdd size={25} className="cursor-pointer" />
           </div>
-          <div className="flex gap-1 rounded-3xl bg-white w-32 h-9 items-center justify-center absolute left-auto lg:right-0 bottom-48 lg:-mr-20 shadow-2xl">
+          <div className="flex gap-1 rounded-3xl bg-white w-32 h-9 items-center justify-center absolute left-auto lg:right-0 bottom-28 md:bottom-36 lg:-mr-20 shadow-2xl">
             <CiLocationOn size={23} className="text-[#e76a43] cursor-pointer" />
             <p>Top Place</p>
           </div>
