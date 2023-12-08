@@ -1,0 +1,10 @@
+/* Assuming you're using a separate stylesheet or a CSS-in-JS solution */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide{
+      scrollbar-width: none; 
+      -ms-overflow-style: none;
+  }  
+
+  
