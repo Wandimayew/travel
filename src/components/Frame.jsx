@@ -1,10 +1,7 @@
 import React from 'react'
-import image2 from '../assets/images/photo2.jpg'
 import one from '../assets/icons/1.png'
 import one1 from '../assets/icons/2.png'
-import one2 from '../assets/icons/3.jpg'
 import one3 from '../assets/icons/4.png'
-import one4 from '../assets/icons/5.jpg'
 import one5 from '../assets/icons/6.png'
 
 const Frame = () => {
