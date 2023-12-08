@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
@@ -8,7 +7,6 @@ import Frame from './components/Frame'
 import HorizontalScrol from './components/HorizontalScrol'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className='flex items-center p-4 gap-16 flex-col'>
